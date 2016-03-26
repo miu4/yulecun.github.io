@@ -215,7 +215,7 @@ var bdShare_config = {
 var realpage =4;
 function test(){
 	var Num = Math.floor(Math.random()*realpage);
-	document.getElementById("fimg").innerHTML="<img  id='footerimg' src='./css/images/"+Num+".png' height='250'/>";
+	document.getElementById("fimg").innerHTML="<img  id='footerimg' src='./"+Num+".png' height='250'/>";
 }
 setInterval("test()",4000); 
 if(top != self){  
